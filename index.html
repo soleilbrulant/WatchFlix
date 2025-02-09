@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WatchFLix</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Main Content -->
+    <div class="container">
+        <h1>Let's Binge Together! :)</h1>
+        <input type="text" id="movieInput" placeholder="Enter movie name...">
+        <button id="searchButton">Search</button>
+        <div id="movieResults"></div>
+    </div>
+
+    <!-- Modal for Movie Details -->
+    <div id="movieModal" class="modal">
+        <div id="modalContent">
+            <button id="closeModalButton">X</button> <!-- Close button -->
+            <h2>Movie Title</h2>
+            <img src="moviePoster.jpg" alt="Movie Poster">
+            <p><strong>Plot:</strong> Movie plot goes here.</p>
+            <p><strong>Genre:</strong> Movie genre.</p>
+            <p><strong>IMDB Rating:</strong> 8/10</p>
+            <!-- More movie details or trailer here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
